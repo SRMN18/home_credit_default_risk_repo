@@ -1,0 +1,38 @@
+# ---- Data, models and checkpoints: large files, and the data is not redistributable -------------------
+# Everything inside data/ is ignored (input/, output/, checkpoints/ ...) except the placeholder files below.
+data/
+!data/README.md
+!data/.gitkeep
+
+# ---- Generated artefacts, wherever they appear ---------------------------------------------------------
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.xlsx
+*.zip
+*.hyper
+*.tde
+*local_only*
+
+# ...except the aggregated tables that feed the dashboard and the SQL results
+!reports/**/*.csv
+
+# ---- Python / Jupyter / editor -------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Archivos de Tableau (no subir binarios ni temporales)
+Dashboard/
+*.twb
+*.twbr
+*.twbx

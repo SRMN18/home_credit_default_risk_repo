@@ -1,0 +1,213 @@
+{
+  "01_quality_checks": [
+    {
+      "n_rows": 61500,
+      "unique_ids": 61500,
+      "min_id": 171202,
+      "max_id": 232701,
+      "ids_if_contiguous": 61500,
+      "null_scores": 0,
+      "scores_out_of_range": 0,
+      "min_score": 5.420142332937664e-06,
+      "max_score": 0.9999891597153342,
+      "mean_score": 0.5000000000000001,
+      "distinct_scores": 54150
+    }
+  ],
+  "02_id_continuity": [
+    {
+      "id_gaps": 0
+    }
+  ],
+  "03_risk_deciles": [
+    {
+      "decile": 10,
+      "applicants": 6150,
+      "min_score": 0.899667745274991,
+      "max_score": 0.9999891597153342,
+      "avg_score": 0.9494668875793296
+    },
+    {
+      "decile": 9,
+      "applicants": 6150,
+      "min_score": 0.7993680114039795,
+      "max_score": 0.899667745274991,
+      "avg_score": 0.8493463982559306
+    },
+    {
+      "decile": 8,
+      "applicants": 6150,
+      "min_score": 0.6994585277809395,
+      "max_score": 0.7993083898383172,
+      "avg_score": 0.7493657618245804
+    },
+    {
+      "decile": 7,
+      "applicants": 6150,
+      "min_score": 0.5997224887125536,
+      "max_score": 0.6994531076386067,
+      "avg_score": 0.6496061896439059
+    },
+    {
+      "decile": 6,
+      "applicants": 6150,
+      "min_score": 0.4996775015311903,
+      "max_score": 0.5997116484278878,
+      "avg_score": 0.5495767349159533
+    },
+    {
+      "decile": 5,
+      "applicants": 6150,
+      "min_score": 0.4000065041707996,
+      "max_score": 0.4996558209618585,
+      "avg_score": 0.44955741893879697
+    },
+    {
+      "decile": 4,
+      "applicants": 6150,
+      "min_score": 0.2999398364201044,
+      "max_score": 0.3999794034591349,
+      "avg_score": 0.35002667547285565
+    },
+    {
+      "decile": 3,
+      "applicants": 6150,
+      "min_score": 0.200762072012011,
+      "max_score": 0.2999235759931056,
+      "avg_score": 0.2504907330768945
+    },
+    {
+      "decile": 2,
+      "applicants": 6150,
+      "min_score": 0.1013078803449378,
+      "max_score": 0.2007024504463487,
+      "avg_score": 0.15105703836107937
+    },
+    {
+      "decile": 1,
+      "applicants": 6150,
+      "min_score": 5.420142332937664e-06,
+      "max_score": 0.1012645192062743,
+      "avg_score": 0.051506161930674046
+    }
+  ],
+  "04_risk_bands": [
+    {
+      "risk_band": "4 - Very high (top 2%)",
+      "applicants": 1230,
+      "pct_of_portfolio": 2.0,
+      "min_score": 0.9796311051128204,
+      "max_score": 0.9999891597153342
+    },
+    {
+      "risk_band": "3 - High (next 8%)",
+      "applicants": 4918,
+      "pct_of_portfolio": 8.0,
+      "min_score": 0.8996731654173239,
+      "max_score": 0.9796040044011556
+    },
+    {
+      "risk_band": "2 - Medium (next 40%)",
+      "applicants": 24602,
+      "pct_of_portfolio": 40.0,
+      "min_score": 0.4996775015311903,
+      "max_score": 0.899667745274991
+    },
+    {
+      "risk_band": "1 - Low (bottom 50%)",
+      "applicants": 30750,
+      "pct_of_portfolio": 50.0,
+      "min_score": 5.420142332937664e-06,
+      "max_score": 0.4996558209618585
+    }
+  ],
+  "05_score_histogram": [
+    {
+      "bucket": 0,
+      "applicants": 2981
+    },
+    {
+      "bucket": 1,
+      "applicants": 3099
+    },
+    {
+      "bucket": 2,
+      "applicants": 3101
+    },
+    {
+      "bucket": 3,
+      "applicants": 3067
+    },
+    {
+      "bucket": 4,
+      "applicants": 3057
+    },
+    {
+      "bucket": 5,
+      "applicants": 3152
+    },
+    {
+      "bucket": 6,
+      "applicants": 3045
+    },
+    {
+      "bucket": 7,
+      "applicants": 3098
+    },
+    {
+      "bucket": 8,
+      "applicants": 3156
+    },
+    {
+      "bucket": 9,
+      "applicants": 3009
+    },
+    {
+      "bucket": 10,
+      "applicants": 3079
+    },
+    {
+      "bucket": 11,
+      "applicants": 3069
+    },
+    {
+      "bucket": 12,
+      "applicants": 3064
+    },
+    {
+      "bucket": 13,
+      "applicants": 3100
+    },
+    {
+      "bucket": 14,
+      "applicants": 3101
+    },
+    {
+      "bucket": 15,
+      "applicants": 3059
+    },
+    {
+      "bucket": 16,
+      "applicants": 3064
+    },
+    {
+      "bucket": 17,
+      "applicants": 3077
+    },
+    {
+      "bucket": 18,
+      "applicants": 3062
+    },
+    {
+      "bucket": 19,
+      "applicants": 3060
+    }
+  ],
+  "06_ties": [
+    {
+      "rows_sharing_a_score": 14019,
+      "tied_groups": 6669,
+      "largest_group": 5
+    }
+  ]
+}

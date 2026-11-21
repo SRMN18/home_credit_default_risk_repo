@@ -1,0 +1,19 @@
+# Home Credit Default Risk - pipeline v5
+# pandas, lightgbm and xgboost match the versions used by the v2 notebook; the remaining pins are the
+# versions the notebook was dry-run with (Python 3.13). If a pin cannot be installed on your Python
+# version, relax it to the closest available release and keep the three pins above.
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+lightgbm==4.7.0
+xgboost==3.2.0
+catboost==1.2.10
+shap==0.53.0
+pyarrow==26.0.0
+joblib==1.6.0
+matplotlib==3.11.2
+ipython==9.17.1
+ipykernel==7.4.0
+# Optional, only used by Cell 7 (CatBoost tuning); not pinned because the exact release was not verified here.
+optuna>=4.0
